@@ -5,7 +5,7 @@
 
 #[derive(Debug)]
 enum Message {
-    Move { x: utf8, y: utf8 },
+    Move { x: u8, y: u8 },
     Echo(String),
     ChangeColor(u8, u8, u8),
     Quit,
